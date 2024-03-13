@@ -10,12 +10,14 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
+		"@efficientcss/stylelint-config-ecss": "^1.0.0-beta-10",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0"
 	},
 	"devDependencies": {
 		"@types/react": "^18.2.64",
 		"@types/react-dom": "^18.2.21",
+		"@types/stylelint": "^14.0.0",
 		"@typescript-eslint/eslint-plugin": "^7.1.1",
 		"@typescript-eslint/parser": "^7.1.1",
 		"@vitejs/plugin-react": "^4.2.1",
@@ -24,6 +26,8 @@
 		"eslint-plugin-react": "^7.34.0",
 		"eslint-plugin-react-hooks": "^4.6.0",
 		"eslint-plugin-react-refresh": "^0.4.5",
+		"stylelint": "^16.2.1",
+		"stylelint-config-standard": "^36.0.0",
 		"typescript": "^5.2.2",
 		"vite": "^5.1.6"
 	}

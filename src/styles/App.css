@@ -1,0 +1,7 @@
+@layer theming {
+	button,
+	.button {
+		-webkit-appearance: none;
+		appearance: none;
+	}
+}
