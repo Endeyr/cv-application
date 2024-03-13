@@ -6,14 +6,14 @@ export type GenInfoType = {
 
 export type EduInfoType = {
 	school: string
-	study: string
+	degree: string
 	date: string
 }
 
 export type PracInfoType = {
 	company: string
 	position: string
-	responsibilities: string[]
+	responsibilities: string
 	startDate: string
 	endDate: string
 }
