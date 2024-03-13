@@ -58,7 +58,7 @@
 
 	/* Better line heights */
 	html {
-		line-height: 1.4;
+		line-height: 1.8;
 	}
 
 	h1,
@@ -67,7 +67,7 @@
 	h4,
 	h5,
 	h6 {
-		line-height: 1.1;
+		line-height: 1.4;
 	}
 
 	/* Better graphic style than the browser's */
