@@ -24,3 +24,60 @@
 		appearance: none;
 	}
 }
+
+@layer components {
+	.container {
+		min-height: 85dvh;
+		min-width: 100dvw;
+		display: grid;
+		grid: auto-flow / 1fr 1fr 1fr;
+	}
+	.loading {
+		font-size: xx-large;
+		text-align: center;
+	}
+	.title {
+		font-size: xx-large;
+		font-weight: bolder;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		min-width: 100dvw;
+	}
+	.header {
+		font-size: x-large;
+		font-weight: bold;
+	}
+	.info {
+		font-size: large;
+		display: flex;
+		flex-direction: column;
+		justify-content: start;
+		gap: 0.25rem;
+		max-width: 90%;
+		min-height: 100%;
+	}
+	.form {
+		font-size: medium;
+		display: flex;
+		flex-direction: column;
+		justify-content: start;
+		gap: 0.25rem;
+		max-width: 90%;
+		min-height: 100%;
+	}
+	.button {
+		font-size: medium;
+		font-weight: bolder;
+	}
+	.edit-button {
+		background-color: green;
+	}
+	.delete-button {
+		background-color: red;
+	}
+	.submit-button {
+		background-color: lightblue;
+	}
+}

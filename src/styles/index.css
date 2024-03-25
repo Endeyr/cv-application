@@ -1,4 +1,4 @@
-@layer base, theming;
+@layer base, theming, components;
 
 @layer base {
 	/* Basic generic styles ----------------------- */
